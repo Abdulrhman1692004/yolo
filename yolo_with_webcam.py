@@ -5,8 +5,7 @@ import cvzone
 import math
 
 #getting a source 
-webcam_capture  = cv.VideoCapture(0)
-#normal_video_capture = cv.VideoCapture('videos/dog.mp4')
+normal_video_capture = cv.VideoCapture('cars.mp4')
 
 #establishing the yolo model object based on its weights
 model = YOLO('yolo_basic/yolov8n.pt')
